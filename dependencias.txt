@@ -1,0 +1,12 @@
+npm i express mongodb http-errors dotenv debug excel4node
+npm i -D nodemon
+
+en package.json para que nodemon y debug funcionen en linux
+"scripts": {
+    "dev" : "DEBUG=app: * && nodemon index.js"
+  },
+
+en windows
+"scripts": {
+    "dev" : "set DEBUG=app:* & nodemon index.js"
+  },
