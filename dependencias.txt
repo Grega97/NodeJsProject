@@ -10,3 +10,8 @@ en windows
 "scripts": {
     "dev" : "set DEBUG=app:* & nodemon index.js"
   },
+
+  
+
+Documentacion de mongodb
+https://www.mongodb.com/docs/drivers/node/current/usage-examples/updateOne/
